@@ -1,0 +1,12 @@
+*{
+  font-weight: 600;
+}
+h1{
+  text-align: center;
+}
+.btn{
+  margin:2px;
+}
+.btnadd{
+  padding:6px 20px;
+}
