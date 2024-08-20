@@ -1,0 +1,7 @@
+.container{
+    background-color: antiquewhite;
+    width:400px;
+    margin: 20px;
+    border:2px solid black;
+    border-radius: 10px;
+}

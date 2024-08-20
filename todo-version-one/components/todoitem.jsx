@@ -1,12 +1,11 @@
-const Todoitem=()=>{
-    return<>
-    <div className="container text-center">
+const Todoitem=({todoName,todoDate})=>{
+    return<><div className="container text-center">
   <div className="row">
     <div className="col">
-        <p>Buy Milk</p>
+        {todoName}
     </div>
     <div className="col">
-        <p>6/08/2024</p>
+        {todoDate}
     </div>
     <div className="col">
     <button type="button" className="btn btn-danger">Delete</button>

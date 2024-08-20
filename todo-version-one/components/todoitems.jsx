@@ -1,8 +1,10 @@
 import Todoitem from "./todoitem";
-function Todoitems({Todoitems}){
+function Todoitems({todoItems}){
     return <>
-<Todoitem todoDate="14/08/2024" todoName="Buy Milk"></Todoitem>
-<Todoitem todoDate="14/08/2024" todoName="Go to College"></Todoitem>
+    {/* {todoItem.map(item)=>{<Todoitem todoDate="14/08/2024" todoName="Buy Milk"></Todoitem>}} */}
+    {todoItems.map((item)=>(
+        <Todoitem key={item.name}todoDate={item.dueDate} todoName={item.name}></Todoitem>
+        ))}
     </>
 }
 export default Todoitems;

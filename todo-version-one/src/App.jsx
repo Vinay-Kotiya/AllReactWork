@@ -7,13 +7,17 @@ import Todoitems from '../components/todoitems';
 import Addtodo from '../components/Addtodo';
 
 function App() {
- const todoItems=[
+ const vinay=[
     {
       name:"Buy milk",
       dueDate:"14/08/2024",
     },
     {
-      name:"Buy milk",
+      name:"Go to College",
+      dueDate:"14/08/2024",
+    },
+    {
+      name:"I am happy",
       dueDate:"14/08/2024",
     },
  ];
@@ -22,7 +26,7 @@ function App() {
     <>
       <h1>Todo App</h1>
       <Addtodo></Addtodo>
-      {/* <Todoitems todoItems={todoitems}></Todoitems> */}
+      <Todoitems todoItems={vinay}></Todoitems>
     </>
   )
 }

@@ -1,4 +1,15 @@
 .list-group{
-    text-align: center;
-    color:brown;
+    /* text-align: center; */
+    color:rgb(0, 0, 0);
+    margin: 20px;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-left: 0;
+}
+.button{
+    border-radius: 20px;
+    border-style: none;
+    background-color: black;
+    color: aliceblue;
+    float: right;
 }

@@ -1,1 +1,5 @@
 
+.mainwraper{
+    flex-wrap: wrap;
+    background-color: aqua;
+}
