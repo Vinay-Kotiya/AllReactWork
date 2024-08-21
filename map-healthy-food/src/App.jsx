@@ -7,6 +7,7 @@ import Errormessage from './compo/Errormessage';
 import Fooditems from './compo/Fooditems';
 import Container from './compo/Container';
 import Wellbe from './compo/Wellbe';
+import Foodinput from './compo/Foodinput';
 
 function App() {
   let fooditems=["Dal","Roti","Milk","Panir","Dahi","Rotlo","Ragi Roti"];
@@ -18,13 +19,18 @@ function App() {
   // }
 //2
   // let emptymessage=fooditems.length===0?<h3>I am still Hungry.</h3>:null;
+  const heandelrfoodinput=(event)=>{
+    // console.log("input is give ");
+    console.log(event.target.value);
+}
   return (
     <>
       <Container>
       <h1>Healthy Food</h1>
       {/*{emptymessage} */}
             <Errormessage items={fooditems}/>
-            <Fooditems items={fooditems}/>
+            <Foodinput heandelrfoodinput={()=>heandelrfoodinput}></Foodinput>
+            <Fooditems items={fooditems} />
       </Container>
       <Container>
             <Wellbe items={fooditems}></Wellbe>
