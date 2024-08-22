@@ -10,8 +10,6 @@ const Fooditems=({items})=>{
         <Item key={item} fooditems={item} ></Item>
       
         ))}
-        
-        
       </ul>
     </>
 }
