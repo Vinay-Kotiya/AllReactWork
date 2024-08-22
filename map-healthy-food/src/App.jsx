@@ -11,25 +11,29 @@ import Foodinput from './compo/Foodinput';
 
 function App() {
   let fooditems=["Dal","Roti","Milk","Panir","Dahi","Rotlo","Ragi Roti"];
-  // let fooditems=[];
-//1
-  //**condition rendering**
-  // if(fooditems.length===0){
-  //   return <h3>I am still Hungry.</h3>
-  // }
-//2
-  // let emptymessage=fooditems.length===0?<h3>I am still Hungry.</h3>:null;
+  // let foodtitel=
+
+    let textStateArr=useState("Food item to be add");
+    let textToShow=textStateArr[0];
+    let setTaxtState=textStateArr[1];
   const heandelrfoodinput=(event)=>{
     // console.log("input is give ");
-    console.log(event.target.value);
-}
+    
+    if(event.key==='Enter'){
+      console.log(event.target.value);
+    let newFoodItem=event.target.value;
+     let newItems=[...fooditems,newFoodItem];
+     setTaxtState(newItems);
+
+    }
+};
   return (
     <>
       <Container>
       <h1>Healthy Food</h1>
       {/*{emptymessage} */}
             <Errormessage items={fooditems}/>
-            <Foodinput heandelrfoodinput={()=>heandelrfoodinput}></Foodinput>
+            <Foodinput heandelrfoodinput={heandelrfoodinput}></Foodinput>
             <Fooditems items={fooditems} />
       </Container>
       <Container>
