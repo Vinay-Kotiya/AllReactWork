@@ -12,4 +12,9 @@
     background-color: black;
     color: aliceblue;
     float: right;
+    transition: .3s;
+    &:hover{
+        color:black;
+        background-color: white;
+    }
 }
