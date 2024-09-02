@@ -1,0 +1,52 @@
+.Leftpart{
+    
+    width: 50%;
+    height:85vh;
+    font-family: Helvetica ;
+}
+h1{
+    font-size: 6vw;
+    margin-left:7vw;
+    margin-right: 2vw;
+    font-weight: 700;
+
+}
+p{
+    margin-left:7vw;
+    margin-right: 19vw;
+    margin-top: 1.5vw;
+    font-size: 12px;
+}
+.button{
+ height: 30px;
+    width: 70px;
+    background-color: red;
+    color:white;
+    border:1px solid black;
+    border-radius: 4px;
+    font-weight: 700;
+    &:hover{
+        box-shadow: 1px 1px 4px black;
+    }
+}
+.button2{
+    height: 30px;
+       width: 70px;
+       background-color: rgb(255, 255, 255);
+       color:balck;
+       border:1px solid black;
+       border-radius: 4px;
+       font-weight: 700;
+       margin-left: 1vw;
+       &:hover{
+           box-shadow: 1px 1px 4px black;
+       }
+   }
+   .btncon{
+    margin:1vw 7vw;
+   }
+   .btncon img{
+    height: 30px;
+    margin-right: 20px;
+   }
+   

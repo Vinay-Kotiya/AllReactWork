@@ -41,7 +41,7 @@ function App() {
             <Wellbe items={fooditems}></Wellbe>
       </Container>
       <Container>
-        <h1>Hi i am Vinay</h1>
+        <h1>Made by Vinay K</h1>
       </Container>
       </>
   )
