@@ -1,0 +1,11 @@
+.Rightpart{
+    
+    width: 50%;
+    height:85vh;
+    font-family: Helvetica ;
+    /* background-color: crimson; */
+    float: right;
+}
+.img{
+    height:39vw;
+}

@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Navbar from './components/Navbar'
 import Leftpart from './components/Leftpart'
+import Rightpart from './components/Rightpart'
 
 
 function App() {
@@ -12,7 +13,9 @@ function App() {
   return (
     <>
       <Navbar></Navbar>
+      <Rightpart></Rightpart>
       <Leftpart></Leftpart>
+      
     </>
   )
 }
