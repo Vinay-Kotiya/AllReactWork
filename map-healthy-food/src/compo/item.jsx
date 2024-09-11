@@ -4,7 +4,7 @@ const Item=({fooditems,onBuyButton})=>{
    
     return <>
        <hr></hr>
-        <li className={`list-group-item`}>
+        <li className={`list-group-item ${styles.active}`}>
         <span>  {fooditems}
         <button className={styles.button} onClick={onBuyButton}>Buy</button>
         </span>

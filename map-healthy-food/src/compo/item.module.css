@@ -11,10 +11,15 @@
     border-style: none;
     background-color: black;
     color: aliceblue;
+    padding: .4px 5px;
     float: right;
     transition: .3s;
     &:hover{
         color:black;
         background-color: white;
     }
+}
+.active{
+    background-color: rgb(109, 255, 141);
+    border-radius: 10px;
 }
