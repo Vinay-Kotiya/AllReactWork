@@ -15,7 +15,6 @@ function App() {
       <Navbar></Navbar>
       <Rightpart></Rightpart>
       <Leftpart></Leftpart>
-      
     </>
   )
 }
