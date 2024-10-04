@@ -1,0 +1,48 @@
+.main{
+   
+    height:88.7vh;
+    padding: 4vw 10vw;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  
+    
+}
+.heading{
+    /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+font-size: 48px;
+font-weight: 500;
+line-height: 72px;
+text-align: left;
+}
+.pare{
+    /* font-family: Poppins; */
+width: 55vw;
+font-size: 16px;
+font-weight: 300;
+line-height: 24px;
+text-align: left;
+
+}
+.formbox{
+    background-color: rgb(255, 179, 179);
+    width:30vw;
+height:50vh;
+gap: 23px;
+opacity: 0px;
+border-radius: 20px;
+display: flex;
+
+}
+.viabtn{
+    width: Hug (220px)px;
+height: Hug (44px)px;
+padding: 10px 18px 10px 18px;
+gap: 10px;
+border-radius: 5px 0px 0px 0px;
+opacity: 0px;
+background-color:#000000;
+color: white;
+border-radius: 4px;
+border-style: none;
+
+justify-content: space-between;
+}
